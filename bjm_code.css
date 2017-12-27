@@ -214,22 +214,23 @@ background: #F2F2F2;
 
 pre {
     /* Use #EAEAEA for background-color of border with src code block's name */
-    background-color: #2d0922;
+    background-color: #f3e8fb;
     border: 1px solid #a8a9ba;
-    color: #f9f1ff;
+    color: #000000;
     font-family: monospace;
     line-height: 1.14em;
     overflow: auto;
     /* overflow-x: auto; */
     padding: 10px;
+    margin: 25px 1px;
 }
 
 code {
-    background-color: #2d0922;
+    background-color: #f3e8fb;
     border: 1px solid #a8a9ba;
-    color: #f9f1ff;
+    color: #000000;
     font-family: monospace;
     /* font-size: 0.93em; */
-    margin: 0px 1px;
+    margin: 25px 1px;
     padding: 0px 2px;
 }
