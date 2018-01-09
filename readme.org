@@ -6,4 +6,8 @@
 #+END_SRC
 
 ** Sakura
-- [[https://github.com/oxalorg/sakura][sakura]] :: =#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://ugeek.github.io/style-css-org-mode/sakura.css" />=
+- [[https://github.com/oxalorg/sakura][sakura]]
+*
+#+BEGIN_SRC lisp
++HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://ugeek.github.io/style-css-org-mode/sakura.css" />
+#+END_SRC
