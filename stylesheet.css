@@ -31,8 +31,6 @@ body {
 @media all and (max-width: 1000px){
     #me { left: 1em; } }
 
-#me:hover {
-    background-image: url(ugeek.jpg); }
 
 #contact {
   position: absolute;
@@ -154,3 +152,48 @@ table, th, td {
 }
 
 
+
+
+
+h2 {
+    font-size:x-large;
+  border-bottom: solid 2px #708090; /* slate gray */
+  margin-top: 1em;
+  margin-bottom: .5em;
+  margin-right: 15px;
+  overflow: hidden;             /* don't crowd the menu */
+}
+
+h3 {
+  border-bottom: solid 1px #708090; /* slate gray */
+  border-right: solid 2px #E5E5E5;  /* gainsboro */
+  font-size: large;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  margin-right: 15px;
+  overflow: hidden;             /* don't crowd the menu */
+  padding-right: 6px;
+}
+
+h4 {
+  border-bottom: dashed 1px #BEBEBE;    /* light gray */
+  border-right: solid 2px #E5E5E5;      /* gainsboro */
+  margin-top: 1.5em;
+  margin-bottom: .7em;
+  overflow: hidden;             /* don't crowd the menu */
+  padding-right: 6px;
+}
+
+
+
+
+/* @group Table of Contents */
+
+#table-of-contents h2 {
+	letter-spacing: -0.1em;
+}
+
+#table-of-contents ul,
+#table-of-contents ol {
+    padding-left: 1em;
+}
