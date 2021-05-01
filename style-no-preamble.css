@@ -1,0 +1,332 @@
+/* -*- coding:utf-8-unix; -*- */
+
+/*
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright (c) 2019 Scott P. Randby
+
+This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) or later version license.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+
+License legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+*/
+
+@font-face {
+  font-family: "dejavu-sans";
+  src: url("./fonts/DejaVuSans.ttf");
+} 
+
+@font-face {
+  font-family: "dejavu-sans-bold";
+  src: url("./fonts/DejaVuSans-Bold.ttf");
+} 
+
+@font-face {
+  font-family: "dejavu-serif";
+  src: url("./fonts/DejaVuSerif.ttf");
+} 
+
+@font-face {
+  font-family: "dejavu-serif-bold";
+  src: url("./fonts/DejaVuSerif-Bold.ttf");
+  font-weight: 900;
+} 
+
+@font-face {
+  font-family: "dejavu-serif-italic";
+  src: url("./fonts/DejaVuSerif-Italic.ttf");
+} 
+
+@font-face {
+  font-family: "dejavu-mono";
+  src: url("./fonts/DejaVuSansMono.ttf");
+} 
+
+body {
+    background-color: lightgray;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: solid lightgray 10px;
+    border-right: solid lightgray 10px;
+}
+
+/* Headline Styles Start*/
+h1.title {
+    color: black;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    background-color: white;
+    font-family: dejavu-serif-bold;
+}
+h2 {
+    color: black;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: dejavu-serif-bold;
+}
+h3 {
+    color: black;
+    font-size: large;
+    text-align: left;
+    font-family: dejavu-serif-bold;
+}
+h4 {
+    color: black;
+    font-size: medium;
+    text-align: left;
+    font-family: dejavu-serif-bold;
+}
+/* Headline Styles End */
+
+/* Structure Styles Start */
+#preamble {
+    background-color: white;
+}
+#preamble a {
+    color: blue;
+    text-decoration: none;
+}
+#table-of-contents {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#table-of-contents ul {
+    float: none;
+}
+div {
+    font-family: dejavu-serif;
+}
+div.outline-2 {
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+div.outline-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.outline-4 {
+}
+div.outline-5 {
+}
+div.figure {
+    float: left;
+}
+div.figure p {
+}
+div.logo-division {
+}
+div.icons-division {
+    float: left;
+}
+div.outline-text-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.outline-text-3 {
+}
+#postamble {
+    color: black;
+    text-align: left;
+    font-size: 100%;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+#postamble a {
+    color: blue;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+p.author {
+    margin-bottom: 0px;
+}
+p.email {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p.creator {
+}
+p.copyright {
+    margin-bottom: 0px;
+}
+p.license {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p.legal {
+    margin-top: 0px;
+}
+p.validate {
+    font-weight: bold;
+}
+/* Structure Styles End */
+
+/* Link Styles Start */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+/* Link Styles End */
+
+/* Text Styles Start */
+b {
+    font-family: dejavu-serif-bold;
+}
+/* Text Styles End */
+
+/*Image Styles Start*/
+.logo-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    max-height: 200px;
+}
+.icon-image {
+    height: 50px;
+    margin: 5px;
+    float: left;
+}
+/*Image Styles End*/
+
+/*Font Styles Start*/
+/*Font Styles End*/
+
+/*Paragraph Styles Start*/
+p {
+    clear: both;
+}
+p.icons-paragraph {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+p.logo-paragraph {
+}
+/*Paragraph Styles End*/
+
+/* List Styles Start*/
+ul {
+    list-style-type: square;
+    float: none;
+}
+ul ul {
+    list-style-type: square;
+    float: none;
+}
+ul ul ul {
+    list-style-type: square;
+    float: none;
+}
+dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+    margin-right: 5px;
+}
+dd {
+}
+/* List Styles End*/
+
+/* Media Styles Start*/
+.audio-division {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.audio-tag {
+    max-width: 100%;
+}
+.video-division {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.video-tag {
+    max-width: 100%;
+}
+/* Media Styles End*/
+
+/* Table Styles Start*/
+/* Table Styles End */
+
+/* Navigation List Styles Begin */
+div #nav {
+    border-bottom: 3px double black;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 1px;
+}
+#nav p {
+    text-align: center;
+}
+#nav a {
+    font-weight: bold;
+    margin: 5px;
+    font-size: medium;
+}
+/* Navigation List Styles End */
+
+/* RSS Feed Styles Begin */
+#rss-preamble {
+    height: 15px;
+    vertical-align: -3px;
+}
+#rss-feed {
+    margin-top: -15px;
+}
+#rss-icon {
+    text-align: center;
+}
+#rss-explain {
+    text-align: left;
+}
+#rss-icon a {
+    font-weight: bold;
+    margin: 5px;
+    font-size: x-large;
+}
+#rss-icon img {
+    height: 50px;
+    vertical-align: -17px;
+}
+#rss-validate a {
+    font-weight: normal;
+    margin: 5px;
+    font-size: medium;
+}
+#rss-validate img {
+    height: auto;
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+/*RSS Feed Styles End */
+
+/* Source Code Formatting Begin*/
+pre {
+    border: 2px solid gray;
+    background-color: #FAFAFA;
+    padding: 20px;
+    font-family: dejavu-mono;
+    font-size: 100%;
+    overflow: auto;
+}
+/* Source Code Formatting End*/
