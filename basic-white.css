@@ -1,0 +1,26 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font: 18px/1.5 '-apple-system', BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    color:#444
+}
+
+h1, h2, h3 {
+    line-height:1.2
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background:#333
+    }
+
+    a:link {
+        color:#5bf
+    }
+
+    a:visited {
+        color: #ccf
+    }
+}
