@@ -39,7 +39,8 @@ body {
 }
 
 /* Headers */
-h1{font-size: 2.5rem;}
+h1{font-size: 2.5rem;
+   color: #1ff3f0;}
 h2{font-size: 1.7rem;}
 h1 > .subtitle, h3, h4, h5, h6{font-size: 1.3rem;}
 
